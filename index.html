@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Veer Smriti - Tribute </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+  <section class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h1>Naik Meghraj Singh Nirwan</h1>
+      <p class="rank">17 Rajputana Rifle (SAWAIMAN)| Indian Army</p>
+      <p class="quote">"Some gave all, so we could live free."</p>
+      <button onclick="scrollToBio()">Read His Story</button>
+    </div>
+  </section>
+
+   <!-- About Section -->
+  <section id="bio" class="about-soldier">
+    <div class="about-container">
+      <img src="hii.jpg" alt="Soldier" class="profile-img" />
+
+      <div class="profile-info">
+        <h2>NAIK MEGHRAJ SINGH</h2>
+        <p><strong>Regiment:</strong> 17 Rajputana Rifle (SAWAIMAN)</p>
+        <p><strong>Date of Birth:</strong> 05 May 1951</p>
+        <p><strong>Date of Martyrdom:</strong> 04 Feburary 1982</p>
+        <p><strong>Hometown:</strong> Jhunjhunu, Rajasthan INDIA</p>
+        <p><strong>Family:</strong> Father, Mother, Wife</p>
+        <p><strong>Awards:</strong> KIRTI CHAKRA (Posthumous)</p>
+        <p><strong>Operation:</strong> Op.ORCHID (Manipur)</p>
+        <p class="bio-text">
+          Nk Meghraj Singh was a brave and dedicated officer of the Indian Army’s elite 17 Rajputana Rifle unit. Known for his leadership, calm under pressure, and patriotism, he led several covert operations in high-risk areas. On the night of 25 February 2020, he led a rescue operation under heavy fire to save fellow soldiers. He made the ultimate sacrifice, ensuring his team made it back safely. His valor and devotion continue to inspire generations.
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+  
+
+  <section class="medal-section">
+  <h2>Gallantry Award</h2>
+  <div class="medal-card">
+    <img src="https://img.jagranjosh.com/imported/images/E/GK/Kirti-Chakra.jpg" alt="Shaurya Chakra" />
+    <div class="medal-info">
+      <h3>Kirti Chakra</h3>
+      <p><strong>Awarded For:</strong> Exceptional courage during live combat while saving fellow soldiers under enemy fire.</p>
+      <p><strong>Presented By:</strong> Hon. President of India - Giani Zail Singh Ji</p>
+      <p><strong>Presented By:</strong> Hon. Prime Minister of India - Mrs. Indira Gandhi Ji</p>
+      <p><strong>Awarded On:</strong> 26 January 1983 (Posthumous)</p>
+    </div>
+  </div>
+</section>
+
+<section class="gallery-section">
+  <h2>Moments to Remember</h2>
+  <div class="gallery-grid">
+    <img src="hii.jpg" alt="Nk Meghraj Singh">
+    <img src="regiment.jpg" alt="With the Unit">
+    <img src="amar jawan.jpg" alt="In Uniform">
+    <img src="cerimony.jpg" alt="Tribute">
+    <img src="self.jpg" alt="Statue">
+    <img src="https://img.jagranjosh.com/imported/images/E/GK/Kirti-Chakra.jpg" alt="Medal Ceremony">
+  </div>
+</section>
+
+<!-- Placeholder for Biography section -->
+  <section id="bio" class="bio-section">
+    <h2>About the Braveheart </h2>
+    <p>          Meghraj Singh was martyred in Imphal, he was awarded the Kirti Chakra in 1982. Meghraj Singh was in 17 Rajputana Rifles. On 27 January 1982, at around 4:45 in the evening, his squad saw two terrorists running in the street in front. When Naik Meghraj Singh chased them, a terrorist fired at him from a very close range, but Meghraj Singh showed courage and caught that terrorist.
+
+He was a very big gangster of PLA. The Indian government had also announced a reward for his capture. A few days after this, on 4 February 1982, terrorists attacked Naik Meghraj Singh and his patrol squad in Imphal. During this, he was martyred in the encounter. On 15 August 1982, the then President Giani Zail Singh and Prime Minister Indira Gandhi honored the martyred Veerangana Vimala Devi by giving her the Kirti Chakra.</p>
+  </section>
+
+
+
+  <section class="pledge-section" id="pledge">
+  <h2>👣 I Pledge to Remember This Hero</h2>
+  <p>Enter your name to light a diya and join the Wall of Gratitude.</p>
+  
+  <div class="pledge-form">
+    <input type="text" id="pledgeName" placeholder="Your Name" />
+    <button onclick="addPledge()">I Pledge 🕯️</button>
+  </div>
+
+  <div id="diyaAnimation"></div>
+
+  <h3>🌟 Wall of Gratitude</h3>
+  <ul id="gratitudeWall"></ul>
+</section>
+
+
+<audio id="bgMusic" loop>
+  <source src="Ae Mere Watan Ke Logon Lata Mangeshkar 128 Kbps.mp3" type="audio/mp3">
+  
+</audio>
+
+
+<button id="musicToggle">🎵 Play Music</button>
+
+  <script src="script.js"></script>
+  <button onclick="scrollToTop()" id="backToTopBtn" title="Go to top">↑</button>
+
+  <section id="tribute-quote">
+  <div class="quote-container">
+    <h2>📝 A Tribute in Words</h2>
+    <p class="quote">
+      "Unki kahani har dil me zinda rahegi,<br>
+      Jinhone apni zindagi watan ke naam likh di."
+    </p>
+    <p class="author">– Unknown</p>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-content">
+    <p>🕊️ In proud memory of a brave soldier who sacrificed everything for our nation.</p>
+    <p>🇮🇳 Jai Hind | Salute to Our Real Heroes</p>
+    <p>&copy; 2025 Tribute Page by Aman Pratap Singh Shekhawat | All Rights Reserved</p>
+  </div>
+</footer>
+
+</body>
+</html>

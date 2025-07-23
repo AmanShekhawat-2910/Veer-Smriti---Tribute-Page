@@ -1,0 +1,364 @@
+/* Reset + Fonts */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #111;
+  color: #fff;
+  scroll-behavior: smooth;
+}
+
+.hero {
+  position: relative;
+  height: 100vh;
+  background: url('https://gadyalkashmir.com/wp-content/uploads/2023/01/indianarmy-1642164516.jpg') center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 700px;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  color: #f9c74f;
+}
+
+.rank {
+  font-size: 1.3rem;
+  color: #90e0ef;
+  margin: 10px 0;
+}
+
+.quote {
+  font-style: italic;
+  margin: 20px 0;
+  font-size: 1.2rem;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #ef233c;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background-color: #d90429;
+}
+
+/* Bio Section (placeholder) */
+.bio-section {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.bio-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #f9c74f;
+}
+.about-soldier {
+  padding: 60px 20px;
+  background-color: #111;
+  color: white;
+}
+
+.about-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.05);
+}
+
+.profile-img {
+  width: 250px;
+  border-radius: 12px;
+}
+
+.profile-info {
+  flex: 1;
+}
+
+.profile-info h2 {
+  color: #f9c74f;
+  margin-bottom: 10px;
+}
+
+.profile-info p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 6px 0;
+}
+
+.bio-text {
+  margin-top: 15px;
+  font-style: italic;
+  color: #ccc;
+}
+.medal-section {
+  padding: 60px 20px;
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+}
+
+.medal-section h2 {
+  color: #f9c74f;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.medal-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  max-width: 900px;
+  margin: auto;
+  background-color: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.medal-card img {
+  width: 220px; /* increased from 150px */
+  height: auto;
+  border-radius: 12px;
+  border: 3px solid #f9c74f;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+.medal-info {
+  text-align: left;
+  max-width: 550px;
+  font-size: 1.15rem; /* increased font size */
+}
+
+.medal-info h3 {
+  color: #90e0ef;
+  margin-bottom: 12px;
+  font-size: 1.6rem; /* bigger title */
+  text-transform: uppercase;
+}
+
+.medal-info p {
+  margin: 8px 0;
+  line-height: 1.6;
+  font-size: 1.05rem; /* more readable text */
+}
+.gallery-section {
+  padding: 60px 20px;
+  background-color: #1a1a1a;
+  color: white;
+  text-align: center;
+}
+
+.gallery-section h2 {
+  color: #f9c74f;
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+
+
+#backToTopBtn {
+  display: none; /* Hide initially */
+  position: fixed;
+  bottom: 30px;
+  right: 25px;
+  z-index: 999;
+  font-size: 22px;
+  background-color: #f9c74f;
+  color: black;
+  border: none;
+  outline: none;
+  padding: 12px 16px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#backToTopBtn:hover {
+  background-color: #ffd166;
+  transform: scale(1.1);
+}
+.site-footer {
+  background-color: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 30px 10px;
+  font-size: 0.9rem;
+  border-top: 2px solid #f9c74f;
+}
+
+.site-footer p {
+  margin: 8px 0;
+  line-height: 1.5;
+}
+.pledge-section {
+  background: linear-gradient(to right, #111, #222);
+  color: #f1f1f1;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.pledge-section h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #f9c74f;
+}
+
+.pledge-form {
+  margin: 20px 0;
+}
+
+.pledge-form input {
+  padding: 10px;
+  font-size: 1rem;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.pledge-form button {
+  padding: 10px 15px;
+  font-size: 1rem;
+  background-color: #f9c74f;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #000;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.pledge-form button:hover {
+  background-color: #ffdd57;
+}
+
+#diyaAnimation {
+  margin: 20px 0;
+  font-size: 2rem;
+  display: none;
+  animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; transform: scale(0.5); }
+  100% { opacity: 1; transform: scale(1); }
+}
+
+#gratitudeWall {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#gratitudeWall li {
+  padding: 6px;
+  font-style: italic;
+  border-bottom: 1px solid #333;
+  color: #f9c74f;
+}
+#musicToggle {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  z-index: 999;
+  background-color: #1a1a1a;
+  color: #fff;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 30px;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffd700;
+  transition: background-color 0.3s ease;
+}
+
+#musicToggle:hover {
+  background-color: #333;
+}
+#tribute-quote {
+  background-color: #1a1a1a;
+  color: #f0e68c;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Georgia', serif;
+}
+
+#tribute-quote h2 {
+  font-size: 28px;
+  color: #ffcc00;
+  margin-bottom: 20px;
+}
+
+.quote-container .quote {
+  font-size: 22px;
+  line-height: 1.6;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.quote-container .author {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #bbb;
+  font-style: italic;
+}
