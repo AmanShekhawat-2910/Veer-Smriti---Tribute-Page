@@ -20,7 +20,7 @@ This is not just a webpage — it's an emotion in code.
 
 ## 🔗 Live Demo
 
-👉 [Click to view the tribute](https://amanshekhawat-2910.github.io/Veer-Smriti---Tribute-Page/)
+👉 [Click to view the tribute]([https://amanshekhawat-2910.github.io/Veer-Smriti---Tribute-Page/](https://amansinghshekhawat29.github.io/Veer-Smriti---Tribute-Page/))
 
 ---
 
