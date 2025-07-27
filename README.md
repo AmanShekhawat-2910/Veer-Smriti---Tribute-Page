@@ -20,29 +20,47 @@ This is not just a webpage — it's an emotion in code.
 
 ## 🔗 Live Demo
 
-👉 [Click to view the tribute]([https://amanshekhawat-2910.github.io/Veer-Smriti---Tribute-Page/](https://amansinghshekhawat29.github.io/Veer-Smriti---Tribute-Page/))
+> 🎖️ [Click to Visit Live Website](https://amansinghshekhawat29.github.io/Veer-Smriti---Tribute-Page/)  
+---
+
+
+
+## 📜 Hero Details
+
+- **Name:** Naik Meghraj Singh Nirwan  
+- **Regiment:** 17 Rajputana Rifle (SAWAIMAN)  
+- **Birth:** 05 May 1957  
+- **Martyrdom:** 04 February 1982  
+- **Hometown:** Jhunjhunu, Rajasthan, India  
+- **Gallantry Award:** 🏅 Kirti Chakra (Posthumous)  
+- **Operation:** Op. ORCHID – Imphal, Manipur  
+
+> _"He made the ultimate sacrifice under heavy fire to rescue his fellow soldiers."_  
+> _"His valor continues to inspire generations."_
 
 ---
 
-## 🔥 Features
+## 🌟 Features
 
-- 🪖 Powerful solo soldier visual
-- 🇮🇳 Indian flag or war-themed background
-- 🎶 Optional automatic background music (e.g., *Ae Mere Watan Ke Logon*)
-- 📜 Patriotic quote or poem at the end
-- 💻 Fully responsive on all devices
-- 🌑 Clean, minimal UI — no clutter, just respect
+- 🇮🇳 **Indian Army Theme** with background emblem and tricolor  
+- 👤 **Complete Biography** of Naik Meghraj Singh  
+- 🎖️ **Gallantry Award (Kirti Chakra)** explanation  
+- 🎶 **Play Music Button** – ambient tribute music  
+- 📸 **Real Sketch Portrait** of the martyr  
+- 🌓 **Dark Theme** for respectful, immersive experience  
+- 📱 **Fully Responsive** on all devices
 
----
 
-## 🛠️ Tech Stack
-
-- HTML5
-- CSS3
-- JavaScript (optional music toggle)
 
 ---
 
-## 📁 Folder Structure
+## 🧠 Tech Stack
 
-# Veer-Smriti---Tribute-Page
+| Tech | Purpose |
+|------|---------|
+| `HTML5` | Page structure |
+| `CSS3` | Styling and responsiveness |
+| `JavaScript` | Audio and button interactivity |
+| `Google Fonts` | Stylish fonts (Poppins, etc.) |
+| `Custom Assets` | Soldier image, emblem, etc. |
+
